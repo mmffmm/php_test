@@ -1,9 +1,8 @@
 <?php
 
-// magic setter and getter for php
-// __set() and __get()
-// magic method only triggers for private, protected and non-existing properties
-    // public properties are accessed directly, without triggering the magic methods
+// magic setter, __set() and getter, __get() for php
+// only triggers for PRIVATE, PROTECTED and NON-EXISTING properties
+    // PUBLIC properties are accessed directly, without triggering the magic methods
 
 class Example {
     public string $foo = 'default'; 
