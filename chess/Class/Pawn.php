@@ -1,7 +1,7 @@
 <?php
 namespace Class;
 
-class Pawn extends ChessPiece implements Piece{
+class Pawn extends ChessPiece{
 
     function __construct($color){
         parent::__construct("pawn", $color);

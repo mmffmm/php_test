@@ -5,7 +5,7 @@ interface Piece{
     function moveset();
 }
 
-abstract class ChessPiece{
+abstract class ChessPiece implements Piece{
     protected string $color;
     protected string $name;
     
@@ -29,5 +29,5 @@ abstract class ChessPiece{
         throw new Exception("Property '$property' doesn't exist!");
     }
 
-    abstract protected function moveset();
+    // abstract protected function moveset();
 }
